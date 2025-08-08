@@ -1,4 +1,4 @@
-# Mail Spam Predictor
+# Message Spam Predictor
 
 This project is a machine learning solution to classify emails as spam or not spam using Python, pandas, and scikit-learn. The workflow is implemented in a Jupyter Notebook.
 
