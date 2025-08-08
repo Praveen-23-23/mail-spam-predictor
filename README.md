@@ -1,50 +1,66 @@
-# Mail Spam Predictor
+Spam Detection using Machine Learning
+This repository contains a Jupyter Notebook implementation of a Spam Detection System.
+It applies machine learning techniques to classify messages as spam or ham (non-spam) using Python and popular data science libraries.
 
-This project is a machine learning solution to classify emails as spam or not spam using Python, pandas, and scikit-learn. The workflow is implemented in a Jupyter Notebook.
+📌 Features
+Data preprocessing and cleaning
 
-## Features
+Text vectorization using TF-IDF
 
-- Reads and preprocesses email data from a CSV file (`mail_data.csv`)
-- Converts text data into numerical features using TF-IDF
-- Trains a logistic regression model to classify emails
-- Evaluates model accuracy on training and test data
-- Allows user to input custom email text for prediction
+Model training and evaluation
 
-## Requirements
+Performance metrics such as accuracy, precision, and recall
 
-- Python 3.x
-- numpy
-- pandas
-- scikit-learn
-- matplotlib
-- seaborn
+Easy-to-follow code and explanations in the notebook
 
-Install dependencies with:
-```sh
+📂 Project Structure
+bash
+Copy
+Edit
+.
+├── spam.ipynb    # Jupyter Notebook with code and explanations
+├── README.md     # Project documentation
+🚀 Getting Started
+1️⃣ Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/your-username/spam-detection.git
+cd spam-detection
+2️⃣ Install Dependencies
+You can install the required Python libraries using:
+
+bash
+Copy
+Edit
 pip install -r requirements.txt
-```
+3️⃣ Run the Notebook
+bash
+Copy
+Edit
+jupyter notebook spam.ipynb
+📊 Model Workflow
+Import Dependencies – Load required Python libraries.
 
-## Usage
+Load Dataset – Read the spam dataset into a DataFrame.
 
-1. Place your dataset as `mail_data.csv` in the project folder.
-2. Open `spam.ipynb` in Jupyter Notebook or VS Code.
-3. Run all cells to train the model and test predictions.
-4. Enter your own email text when prompted to classify as spam or not spam.
+Data Preprocessing – Clean and prepare the data for analysis.
 
-## Files
+Text Vectorization – Convert text into numerical form using TF-IDF.
 
-- `spam.ipynb` — Main notebook with all code and explanations
-- `requirements.txt` — List of required Python packages
-- `mail_data.csv` — Email dataset (not included in repo)
+Model Training – Train a machine learning model (e.g., Naive Bayes, Logistic Regression).
 
-## Example
+Evaluation – Measure model performance using accuracy, precision, recall, and confusion matrix.
 
-```
-Enter the mail text to be classified: Congratulations! You have won a free ticket.
-[0]
-Spam mail
-```
+🛠️ Technologies Used
+Python
 
-## License
+Pandas
 
-This project is for educational purposes.
+NumPy
+
+Scikit-learn
+
+Matplotlib / Seaborn
+
+Jupyter Notebook
